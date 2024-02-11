@@ -1,0 +1,29 @@
+.navbar{
+    background-color: midnightblue;
+    color:white !important;
+}
+
+.nav-item >a {
+    color:white !important;
+}
+.navbar-brand{
+    color:white !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.btn{
+    background-color:white;
+}
+
+.btn:hover{
+    background-color:rgb(91, 150, 246);
+}
+li>a:hover{
+    
+    background-color: rgb(91, 150, 246);
+    
+}
+li>a{
+    border-radius:10px;
+}
+

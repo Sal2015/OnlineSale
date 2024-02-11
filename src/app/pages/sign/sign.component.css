@@ -1,0 +1,50 @@
+.btn{
+    background-color: rgb(91, 150, 246);
+    width:50%;
+}
+.btn:hover{
+    background-color: rgb(42, 42, 163);
+    color:white;
+}
+
+
+.fo{
+    margin:20px;
+    padding:20px;
+    border-radius:30px;
+    background-color: white;
+    box-shadow: 10px 10px #b3afaf9e;
+}
+.cr{
+    background-color: rgb(91, 150, 246);
+    margin:20px;
+    padding:20px;
+    border-radius:30px;
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:midnightblue;
+}
+.form-control{
+    background-color: #b3afaf43;
+
+}
+div>img{
+    border-radius: 100%;
+    height:450px;
+    width:450px;
+   
+}
+.top{
+    display: flex;
+   padding:20px;
+    background-color: rgb(2, 7, 39);
+    height:650px;
+}
+.top>.fo{
+    width:100%;
+}

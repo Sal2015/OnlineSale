@@ -1,0 +1,29 @@
+
+<div class="container">
+    <div class="row">
+        @for(item of product;track $index ){
+
+            <div class="col">
+
+                <div class="card" routerLink="{{item.id}}" style="width: 18rem;">
+                    <img src="{{item.image}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{item.title}}</h5>
+                      <p class="card-text">Category : {{item.id}}</p>
+                      <p class="card-text">{{item.description | slice :0:50}}</p>
+                      <p class="card-text">Category : {{item.category}}</p>
+                      
+                      <p class="card-text">Rating : {{item.rating.rate}}</p>
+                      <p class="card-text">Rate Count : {{item.rating.count}}</p>
+                      
+                      
+                    </div>
+                    <a  class="btn btn-primary">Buy Now : {{item.price}}/- Rs</a>
+                </div>
+
+            </div>
+
+        }
+       
+    </div>
+</div>
